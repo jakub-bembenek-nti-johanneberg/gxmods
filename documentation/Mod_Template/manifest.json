@@ -1,13 +1,13 @@
 {
-    "name": "MOD NAME GOES HERE",
-    "description": "MOD DESCRIPTION GOES HERE",
-    "developer":
+    "name": "random rot",
+    "description": "nice music, cool background, troll keyboard sounds",
+    "developer": 
     {
-        "name": "DEVELOPER NAME GOES HERE"
+        "name": "Jakub Bembenek"
     },
     "icons":
     {
-        "512": "icon_512.png"
+        "512": "icon_512.jpg"
     },
     "manifest_version": 3,
     "mod":
@@ -20,7 +20,19 @@
                 "music/track_1.mp3",
                 "music/track_2.mp3",
                 "music/track_3.mp3",
-                "music/track_4.mp3"
+                "music/track_4.mp3",
+                "music/track_5.mp3",
+                "music/track_6.mp3",
+                "music/track_7.mp3",
+                "music/track_8.mp3",
+                "music/track_9.mp3",
+                "music/track_10.mp3",
+                "music/track_11.mp3",
+                "music/track_12.mp3",
+                "music/track_13.mp3",
+                "music/track_14.mp3",
+                "music/track_15.mp3",
+                "music/track_16.mp3"
             ],
             "browser_sounds":
             {
@@ -81,97 +93,36 @@
             {
                 "TYPING_BACKSPACE":
                 [
-                    "keyboard/backspace.wav"
+                    "keyboard/backspace.mp3"
                 ],
                 "TYPING_ENTER":
                 [
-                    "keyboard/enter.wav"
+                    "keyboard/enter.mp3"
                 ],
                 "TYPING_LETTER":
                 [
-                    "keyboard/letter_1.wav",
-                    "keyboard/letter_2.wav",
-                    "keyboard/letter_3.wav"
+                    "keyboard/letter_1.mp3",
+                    "keyboard/letter_2.mp3",
+                    "keyboard/letter_3.mp3",
+                    "keyboard/letter_4.mp3"
                 ],
                 "TYPING_SPACE":
                 [
-                    "keyboard/space.wav"
+                    "keyboard/space.mp3"
                 ]
-            },
-            "page_styles":
-            [
-                {
-                    "css":
-                    [
-                        "webmodding/opera.css"
-                    ],
-                    "matches":
-                    [
-                        "https://*.opera.com/*"
-                    ]
-                }
-            ],
-            "shaders":
-            {
-                "Matrix green":
-                {
-                    "path": "shader/matrix.txt"
-                },
-                "Wave":
-                {
-                    "animation":
-                    {
-                        "duration": 60,
-                        "steps": 3600
-                    },
-                    "path": "shader/wave.txt"
-                }
-            },
-            "theme":
-            {
-                "dark":
-                {
-                    "gx_accent":
-                    {
-                        "h": 85,
-                        "s": 100,
-                        "l": 72
-                    },
-                    "gx_secondary_base":
-                    {
-                        "h": 272,
-                        "s": 64,
-                        "l": 16
-                    }
-                },
-                "light":
-                {
-                    "gx_accent":
-                    {
-                        "h": 112,
-                        "s": 80,
-                        "l": 44
-                    },
-                    "gx_secondary_base":
-                    {
-                        "h": 272,
-                        "s": 32,
-                        "l": 16
-                    }
-                }
             },
             "wallpaper":
             {
                 "dark":
                 {   
-                    "image": "wallpaper/dark.png",
+                    "image": "wallpaper/dark.jpg",
                     "text_color": "#FFFFFF",
                     "text_shadow": "#757575"
                 },
                 "light":
                 {
-                    "image": "wallpaper/video.webm",
-                    "first_frame": "wallpaper/first_frame.jpeg",
+                    "image": "wallpaper/light.jpg",
+                    "first_frame": "wallpaper/light.jpg",
                     "text_color": "#FFFFFF",
                     "text_shadow": "#0B000E"
                 }
